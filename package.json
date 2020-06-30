@@ -1,6 +1,6 @@
 {
   "name": "@dangao/date-util-es",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Date extension",
   "main": "dist/main.js",
   "repository": "https://github.com/dangaogit/date-util-es.git",
@@ -9,6 +9,9 @@
   "files": [
     "dist/*"
   ],
+  "scripts": {
+    "build": "tsc -p ./ -d"
+  },
   "devDependencies": {
     "@types/node": "^14.0.14",
     "ts-node": "^8.10.2",
