@@ -2,6 +2,7 @@
   "name": "@dangao/date-util-es",
   "version": "0.0.1",
   "description": "Date extension",
+  "main": "src/main.ts",
   "repository": "https://github.com/dangaogit/date-util-es.git",
   "author": "dangaogit",
   "license": "MIT",
