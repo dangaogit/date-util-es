@@ -1,0 +1,13 @@
+{
+  "name": "@dangao/date-util-es",
+  "version": "0.0.1",
+  "description": "Date extension",
+  "repository": "https://github.com/dangaogit/date-util-es.git",
+  "author": "dangaogit",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
