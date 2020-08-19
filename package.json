@@ -1,6 +1,6 @@
 {
   "name": "@dangao/date-util-es",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Date extension",
   "main": "dist/main.js",
   "repository": "https://github.com/dangaogit/date-util-es.git",

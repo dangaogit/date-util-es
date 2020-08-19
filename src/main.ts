@@ -80,12 +80,12 @@ declare global {
     formatTime(): Date;
   }
   interface DateConstructor {
-    /** 毫秒级格式化字符串 */
-    format_ms: string;
+    /** 默认格式化模板 */
+    formatDefault: string;
   }
 }
 
-Date.format_ms = "yyyy-mm-dd hh:min:ss.ms";
+Date.formatDefault = "yyyy-mm-dd hh:min:ss.ms";
 
 Date.prototype.isSameYearFrom = function(date: Date) {
   return this.getFullYear() === date.getFullYear();
@@ -119,7 +119,7 @@ Date.prototype.isInvalidDate = function() {
   return this.toString().indexOf("Invalid Date") !== -1;
 };
 
-Date.prototype.format = function(fmt = "yyyy-mm-dd hh:min:ss.ms", completion?: boolean) {
+Date.prototype.format = function(fmt = Date.formatDefault, completion?: boolean) {
   if (typeof completion !== "boolean") {
     completion = true;
   }
